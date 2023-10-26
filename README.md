@@ -71,4 +71,4 @@ Di seguito espongo il diagramma UML del CLIENTE
 
 
 Il diagramma UML del SISTEMA invece è questo
-<img src="http://yuml.me/diagram/scruffy/usecase/[Sistema]-(Attivazione mezzo),(Attivazione mezzo)>(mezzo sbloccato),[Sistema]-(Parcheggio mezzo),(Parcheggio mezzo)>(Posto parcheggio disponibile),[Sistema]-(Controllo stato mezzo)" >
+<img src="http://yuml.me/diagram/scruffy/usecase/[Sistema]-(Attivazione mezzo),(Attivazione mezzo)>(Sblocco mezzo),[Sistema]-(Parcheggio mezzo),(Parcheggio mezzo)>(Verifica Posto parcheggio),[Sistema]-(Controllo stato mezzo)" >
