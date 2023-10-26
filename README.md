@@ -65,7 +65,10 @@ MultiNoleggio:
 
 
 
-
-
-
+Di seguito espongo il diagramma UML del CLIENTE
 <img src="http://yuml.me/diagram/scruffy/usecase/[Cliente]-(Registrazione),[Cliente]-(Noleggio mezzo),(Noleggio mezzo)>(Autenticazione),[Cliente]-(Prenotazione mezzo),(Prenotazione mezzo)>(Noleggio mezzo),(Prenotazione mezzo)>(Autenticazione),(Registrazione)<(Acquisto abbonamento),(Acquisto abbonamento)>(Aggiungi carta),(Acquisto abbonamento)>(Autenticazione)" >
+
+
+
+Il diagramma UML del SISTEMA invece è questo
+<img src="http://yuml.me/diagram/scruffy/usecase/[Sistema]-(Attivazione mezzo),(Attivazione mezzo)>(mezzo sbloccato),[Sistema]-(Parcheggio mezzo),(Parcheggio mezzo)>(Posto parcheggio disponibile),[Sistema]-(Controllo stato mezzo)" >
