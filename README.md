@@ -123,12 +123,20 @@ Il diagramma UML del SISTEMA invece è questo
 
 1.Bbike                        100
 1.1 Grafica                    25
+
 1.2 Marketing                    
+
 1.2.1 Social media             20 
+
 1.2.2 TV marketing             10 
+
 1.3 Integrazione 
+
 1.3.1 Ideazione                8
+
 1.3.2 Progettazione            12
+
 1.3.3 Commercializzazione      15
+
 1.4 Gestione Progetto          10
 
