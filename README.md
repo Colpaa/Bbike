@@ -122,6 +122,7 @@ Il diagramma UML del SISTEMA invece è questo
 --- DIAGRAMMA WBS
 
 1.Bbike                        100
+
 1.1 Grafica                    25
 
 1.2 Marketing                    
