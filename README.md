@@ -121,14 +121,28 @@ Il diagramma UML del SISTEMA invece è questo
 
 --- DIAGRAMMA WBS
 
-1.Bbike                        100<br>
-1.1 Grafica                    25<br>
-1.2 Marketing <br>
-1.2.1 Social media             20<br>
-1.2.2 TV marketing             10<br>
-1.3 Integrazione<br> 
-1.3.1 Ideazione                8<br>
-1.3.2 Progettazione            12<br>
-1.3.3 Commercializzazione      15<br>
-1.4 Gestione Progetto          10<br>
+1. Bbike 100<br>
+   1.1 Analisi dei Requisiti  10 <br>
+      1.1.1 Definizione dei Requisiti Utente 6<br>
+      1.1.2 Analisi del Modello BiGi 4<br>
+   1.2 Progettazione 15<br>
+      1.2.1 Progettazione dell'Interfaccia Utente 10<br>
+      1.2.2 Progettazione del Back-End 10<br>
+   1.3 Implementazione 25 <br>
+      1.3.1 Integrazione del Modello BiGi 3<br>
+      1.3.2 Sviluppo della Funzionalità di Noleggio 3<br>
+      1.3.3 Sviluppo della Funzionalità di Prenotazione 3<br>
+      1.3.4 Sviluppo della Funzionalità di Pagamento 2<br>
+      1.3.5 Sviluppo della Funzionalità di Scelta Abbonamento 3<br>
+      1.3.6 Implementazione della Sicurezza 3<br>
+      1.3.7 Implementazione della Funzionalità di Manutenzione 2<br> 
+      1.3.8 Implementazione della Funzionalità di Navigazione 3<br>
+      1.3.9 Implementazione della Funzionalità di MultiNoleggio 3<br>
+   1.4 Test 35<br>
+      1.4.1 Test di Unità 11<br>
+      1.4.2 Test di Integrazione 12 <br>
+      1.4.3 Test di Sistema 12<br>
+   1.5 Commercializzazione 15 <br>
+      1.5.1 Distribuzione dell'Applicazione 8<br>
+      1.5.2 Configurazione dei Server 7<br>
 
