@@ -152,70 +152,78 @@ Sprint 1 (3 settimane - 40 ore di lavoro a settimana):
 
 Registrazione:<br>
 
-Apertura dell'applicazione (4 ore)<br>
-Selezione dell'opzione di registrazione (8 ore)<br>
-Inserimento dei dati (12 ore)<br>
-Verifica dei dati e creazione dell'account (20 ore)<br>
-Autenticazione automatica (32 ore)<br>
-Estensione: Gestione dati non validi (52 ore)<br>
+Come un utente voglio aprire l'applicazione in modo da poter accedere ai servizi offerti.<br>
+Come un utente voglio selezionare l'opzione di registrazione in modo da creare un nuovo account.<br>
+Come un utente voglio inserire i dati richiesti come nome, email e password in modo da completare il processo di registrazione.<br>
+Come un utente voglio che l'applicazione verifichi i dati inseriti in modo da garantire la correttezza delle informazioni.<br>
+Come un utente voglio essere autenticato automaticamente dopo la registrazione per accedere rapidamente all'applicazione.<br>
+In caso di dati non validi, come un utente voglio che l'applicazione mostri un messaggio di errore per correggere eventuali errori.<br>
+
 Sicurezza:<br>
 
-Implementazione del software di sicurezza (4 ore)<br>
-Monitoraggio e notifiche (8 ore)<br>
-Estensioni: Tracciamento del furto (12 ore)<br>
-Sprint 2 (3 settimane - 40 ore di lavoro a settimana):<br>
+Come un responsabile della sicurezza voglio che l'applicazione implementi un software di sicurezza per prevenire il furto delle biciclette.<br>
+Come un responsabile della sicurezza voglio che il software monitori il movimento delle biciclette e rilevi attività sospette.<br>
+In caso di furto o movimento non autorizzato, come un responsabile della sicurezza voglio che il sistema invii notifiche ai gestori dell'applicazione e agli utenti.<br>
+In caso di furto, come un responsabile della sicurezza voglio che il sistema attivi un sistema di tracciamento per recuperare la bicicletta.<br>
 
 Noleggio:<br>
 
-Autenticazione e apertura della mappa (4 ore)<br>
-Ricerca e noleggio della bicicletta (8 ore)<br>
-Inizio noleggio tramite scansione QR (12 ore)<br>
-Registrazione del tempo di noleggio (20 ore)<br>
-Terminazione del noleggio e calcolo del costo (32 ore)<br>
-Estensioni: Bicicletta non disponibile (52 ore), Tempo massimo di noleggio superato (84 ore)<br>
+Come un utente voglio essere autenticato nell'applicazione in modo da poter utilizzare i servizi di noleggio.<br>
+Come un utente voglio aprire la mappa dell'applicazione per individuare una bicicletta disponibile nelle vicinanze.<br>
+Come un utente voglio scannerizzare il codice QR sulla bicicletta per iniziare il noleggio.<br>
+Come un utente voglio che l'applicazione registri il tempo del noleggio in modo da calcolare il costo corretto.<br>
+Come un utente voglio pedalare verso la destinazione desiderata durante il noleggio.<br>
+Come un utente voglio raggiungere la destinazione e terminare il noleggio attraverso l'applicazione.<br>
+Come un utente voglio che l'applicazione calcoli automaticamente il costo del noleggio e richieda il pagamento.<br>
+In caso di bicicletta non disponibile, come un utente voglio ricevere un avviso dall'applicazione.<br>
+Come un utente voglio essere avvertito se supero il tempo massimo di noleggio e se vengono applicate tariffe aggiuntive.<br>
+
 Prenotazione:<br>
 
-Autenticazione e ricerca della bicicletta (4 ore)<br>
-Selezione della durata della prenotazione (8 ore)<br>
-Conferma della prenotazione e ritiro della bicicletta (12 ore)<br>
-Estensioni: Prenotazione sovrapposta (20 ore)<br>
-Pagamento:
-<br>
-Calcolo del costo e richiesta di pagamento (4 ore)<br>
-Inserimento dei dettagli di pagamento (8 ore)<br>
-Elaborazione del pagamento e invio della ricevuta (12 ore)<br>
-Estensioni: Pagamento non riuscito (20 ore)<br>
+Come un utente voglio essere autenticato nell'applicazione per prenotare una bicicletta.<br>
+Come un utente voglio trovare una bicicletta che desidero prenotare sulla mappa.<br>
+Come un utente voglio selezionare l'opzione di prenotazione e specificare la durata desiderata o accettare il valore predefinito.<br>
+Come un utente voglio che l'applicazione prenoti la bicicletta per me per la durata specificata.<br>
+Come un utente voglio poter ritirare la bicicletta durante la durata della prenotazione.<br>
+Se un'altra persona prenota la stessa bicicletta prima che io la ritiri, come un utente voglio essere notificato e la prenotazione cancellata.<br>
+
+Sprint 2 (3 settimane - 40 ore di lavoro a settimana):<br>
+
+Pagamento:<br>
+
+Come un utente voglio completare il noleggio di una bicicletta in modo che l'applicazione possa calcolare il costo in base al tempo trascorso.<br>
+Come un utente voglio che l'applicazione richieda il pagamento e mi permetta di inserire i dettagli di pagamento.<br>
+Come un utente voglio che l'applicazione elabori il pagamento e mi invii una ricevuta.<br>
+In caso di pagamento non riuscito, come un utente voglio essere avvisato e poter utilizzare un altro metodo di pagamento.<br>
+
 Scelta Abbonamento:<br>
 
-Accesso alla sezione "Scelta Abbonamento" (4 ore)<br>
-Selezione dell'abbonamento e calcolo del costo (8 ore)<br>
-Conferma dell'acquisto e pagamento (12 ore)<br>
-Estensioni: Pagamento dell'abbonamento non riuscito (20 ore)<br>
+Come un utente voglio essere autenticato nell'applicazione per accedere alla sezione "Scelta Abbonamento".<br>
+Come un utente voglio poter selezionare uno tra vari abbonamenti disponibili, come abbonamenti di 3 mesi, 6 mesi o 1 anno.<br>
+Come un utente voglio che l'applicazione calcoli il costo dell'abbonamento.<br>
+Come un utente voglio confermare l'acquisto e effettuare il pagamento.<br>
+In caso di pagamento dell'abbonamento non riuscito, come un utente voglio essere avvisato e poter utilizzare un altro metodo di pagamento.<br>
+
 Manutenzione:<br>
 
-Monitoraggio dello stato della bicicletta (4 ore)<br>
-Rilevamento dei problemi e notifiche (8 ore)<br>
-Recupero e riparazione (12 ore)<br>
-Rimessa in servizio della bicicletta (20 ore)<br>
-Estensioni: Sostituzione della bicicletta danneggiata (32 ore)<br>
+Come uno sviluppatore voglio che ogni bicicletta sia dotata di un chip che monitori il suo stato.<br>
+Come uno sviluppatore voglio che il chip rilevi eventuali problemi o danni alla bicicletta.<br>
+In caso di stato compromesso del mezzo, come uno sviluppatore voglio essere notificato come operatore.<br>
+Come uno sviluppatore voglio recuperare la bicicletta per la manutenzione e ripararla.<br>
+Dopo la manutenzione, come uno sviluppatore voglio che la bicicletta sia nuovamente disponibile per i clienti.<br>
+Se la bicicletta è troppo danneggiata per essere riparata, come uno sviluppatore voglio che venga sostituita con una nuova bicicletta.<br>
+
 Naviga:<br>
 
-Accesso alla funzione "Naviga" (4 ore)<br>
-Selezione della destinazione e calcolo del percorso (8 ore)<br>
-Seguire le indicazioni sulla mappa (12 ore)<br>
-Estensioni: Problemi lungo il percorso (20 ore)<br>
+Come un utente voglio poter accedere alla funzione "Naviga" dalla home dell'applicazione.<br>
+Come un utente voglio selezionare una destinazione sulla mappa e che l'applicazione calcoli il percorso più veloce per raggiungerla in bicicletta.<br>
+Come un utente voglio seguire le indicazioni sulla mappa per guidarmi alla destinazione.<br>
+In caso di problemi lungo il percorso, come strade chiuse o lavori in corso, come un utente voglio che l'applicazione calcoli un percorso alternativo.<br>
+
 MultiNoleggio:<br>
 
-Registrazione del noleggio della prima bicicletta (4 ore)<br>
-Noleggio di più biciclette (8 ore)<br>
-Calcolo degli sconti crescenti (12 ore)<br>
-Terminazione dei noleggi (20 ore)<br>
-Estensioni: Tentativo di noleggiare più di 5 biciclette (32 ore)<br>
-Pulizia, Ottimizzazione, Test:<br>
-
-Revisione del codice (4 ore)<br>
-Rimozione di eventuali bug residui (8 ore)<br>
-Ottimizzazione delle prestazioni (12 ore)<br>
-Esecuzione di test unitari e di integrazione (20 ore)<br>
-Risoluzione di bug emersi durante i test (32 ore)<br>
-Verifica della conformità alle specifiche (52 ore)<br>
+Come uno sviluppatore voglio che l'applicazione registri il noleggio della prima bicicletta.<br>
+Come uno sviluppatore voglio poter ripetere il processo per noleggiare una seconda bicicletta, e così via, fino a un massimo di 5 biciclette contemporaneamente.<br>
+Come uno sviluppatore voglio che l'applicazione calcoli sconti crescenti in base al numero di biciclette noleggiate contemporaneamente.<br>
+Come uno sviluppatore voglio terminare i noleggi delle biciclette quando ho finito di usarle.<br>
+Se tento di noleggiare più di 5 biciclette contemporaneamente, come uno sviluppatore voglio che l'applicazione mostri un messaggio di errore.<br>
