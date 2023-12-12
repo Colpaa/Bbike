@@ -163,7 +163,7 @@ Sicurezza:<br>
 
 Come un responsabile della sicurezza voglio che l'applicazione implementi un software di sicurezza per prevenire il furto delle biciclette.->3 ore<br>
 Come un responsabile della sicurezza voglio che il software monitori il movimento delle biciclette e rilevi attività sospette.->8 ore<br>
-In caso di furto o movimento non autorizzato, come un responsabile della sicurezza voglio che il sistema invii notifiche ai gestori dell'applicazione e agli utenti.->12 ore<br>
+In caso di furto o movimento non autorizzato, come un responsabile della sicurezza voglio che il sistema invii notifiche ai gestori dell'applicazione e agli utenti.->3 ore<br>
 In caso di furto, come un responsabile della sicurezza voglio che il sistema attivi un sistema di tracciamento per recuperare la bicicletta.->5 ore<br>
 
 Noleggio:<br>
@@ -171,7 +171,7 @@ Noleggio:<br>
 Come un utente voglio essere autenticato nell'applicazione in modo da poter utilizzare i servizi di noleggio.->3 ore<br>
 Come un utente voglio aprire la mappa dell'applicazione per individuare una bicicletta disponibile nelle vicinanze.->5 ore<br>
 Come un utente voglio scannerizzare il codice QR sulla bicicletta per iniziare il noleggio.->5 ore<br>
-Come un utente voglio che l'applicazione registri il tempo del noleggio in modo da calcolare il costo corretto.->12 ore<br>
+Come un utente voglio che l'applicazione registri il tempo del noleggio in modo da calcolare il costo corretto.->5 ore<br>
 Come un utente voglio pedalare verso la destinazione desiderata durante il noleggio.->8 ore<br>
 Come un utente voglio raggiungere la destinazione e terminare il noleggio attraverso l'applicazione.->5 ore<br>
 Come un utente voglio che l'applicazione calcoli automaticamente il costo del noleggio e richieda il pagamento.->8 ore<br>
