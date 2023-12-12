@@ -146,3 +146,76 @@ Il diagramma UML del SISTEMA invece è questo
       1.5.1 Distribuzione dell'Applicazione 8<br>
       1.5.2 Configurazione dei Server 7<br>
 
+--- SUDDIVISIONE DELLE USER STORIES
+
+Sprint 1 (3 settimane - 40 ore di lavoro a settimana):
+
+Registrazione:<br>
+
+Apertura dell'applicazione (4 ore)<br>
+Selezione dell'opzione di registrazione (8 ore)<br>
+Inserimento dei dati (12 ore)<br>
+Verifica dei dati e creazione dell'account (20 ore)<br>
+Autenticazione automatica (32 ore)<br>
+Estensione: Gestione dati non validi (52 ore)<br>
+Sicurezza:<br>
+
+Implementazione del software di sicurezza (4 ore)<br>
+Monitoraggio e notifiche (8 ore)<br>
+Estensioni: Tracciamento del furto (12 ore)<br>
+Sprint 2 (3 settimane - 40 ore di lavoro a settimana):<br>
+
+Noleggio:<br>
+
+Autenticazione e apertura della mappa (4 ore)<br>
+Ricerca e noleggio della bicicletta (8 ore)<br>
+Inizio noleggio tramite scansione QR (12 ore)<br>
+Registrazione del tempo di noleggio (20 ore)<br>
+Terminazione del noleggio e calcolo del costo (32 ore)<br>
+Estensioni: Bicicletta non disponibile (52 ore), Tempo massimo di noleggio superato (84 ore)<br>
+Prenotazione:<br>
+
+Autenticazione e ricerca della bicicletta (4 ore)<br>
+Selezione della durata della prenotazione (8 ore)<br>
+Conferma della prenotazione e ritiro della bicicletta (12 ore)<br>
+Estensioni: Prenotazione sovrapposta (20 ore)<br>
+Pagamento:
+<br>
+Calcolo del costo e richiesta di pagamento (4 ore)<br>
+Inserimento dei dettagli di pagamento (8 ore)<br>
+Elaborazione del pagamento e invio della ricevuta (12 ore)<br>
+Estensioni: Pagamento non riuscito (20 ore)<br>
+Scelta Abbonamento:<br>
+
+Accesso alla sezione "Scelta Abbonamento" (4 ore)<br>
+Selezione dell'abbonamento e calcolo del costo (8 ore)<br>
+Conferma dell'acquisto e pagamento (12 ore)<br>
+Estensioni: Pagamento dell'abbonamento non riuscito (20 ore)<br>
+Manutenzione:<br>
+
+Monitoraggio dello stato della bicicletta (4 ore)<br>
+Rilevamento dei problemi e notifiche (8 ore)<br>
+Recupero e riparazione (12 ore)<br>
+Rimessa in servizio della bicicletta (20 ore)<br>
+Estensioni: Sostituzione della bicicletta danneggiata (32 ore)<br>
+Naviga:<br>
+
+Accesso alla funzione "Naviga" (4 ore)<br>
+Selezione della destinazione e calcolo del percorso (8 ore)<br>
+Seguire le indicazioni sulla mappa (12 ore)<br>
+Estensioni: Problemi lungo il percorso (20 ore)<br>
+MultiNoleggio:<br>
+
+Registrazione del noleggio della prima bicicletta (4 ore)<br>
+Noleggio di più biciclette (8 ore)<br>
+Calcolo degli sconti crescenti (12 ore)<br>
+Terminazione dei noleggi (20 ore)<br>
+Estensioni: Tentativo di noleggiare più di 5 biciclette (32 ore)<br>
+Pulizia, Ottimizzazione, Test:<br>
+
+Revisione del codice (4 ore)<br>
+Rimozione di eventuali bug residui (8 ore)<br>
+Ottimizzazione delle prestazioni (12 ore)<br>
+Esecuzione di test unitari e di integrazione (20 ore)<br>
+Risoluzione di bug emersi durante i test (32 ore)<br>
+Verifica della conformità alle specifiche (52 ore)<br>
