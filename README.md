@@ -224,6 +224,6 @@ MultiNoleggio:<br>
 
 Come uno sviluppatore voglio che l'applicazione registri il noleggio della prima bicicletta.->3 ore<br>
 Come uno sviluppatore voglio poter ripetere il processo per noleggiare una seconda bicicletta, e così via, fino a un massimo di 5 biciclette contemporaneamente.->5 ore<br>
-Come uno sviluppatore voglio che l'applicazione calcoli sconti crescenti in base al numero di biciclette noleggiate contemporaneamente.->12 ore<br>
+Come uno sviluppatore voglio che l'applicazione calcoli sconti crescenti in base al numero di biciclette noleggiate contemporaneamente.->3 ore<br>
 Come uno sviluppatore voglio terminare i noleggi delle biciclette quando ho finito di usarle.->3 ore<br>
 Se tento di noleggiare più di 5 biciclette contemporaneamente, come uno sviluppatore voglio che l'applicazione mostri un messaggio di errore.->3 ore<br>
