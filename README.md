@@ -156,7 +156,7 @@ Come un utente voglio aprire l'applicazione in modo da poter accedere ai servizi
 Come un utente voglio selezionare l'opzione di registrazione in modo da creare un nuovo account.->3 ore<br>
 Come un utente voglio inserire i dati richiesti come nome, email e password in modo da completare il processo di registrazione.->5 ore<br>
 Come un utente voglio che l'applicazione verifichi i dati inseriti in modo da garantire la correttezza delle informazioni.->3 ore<br>
-Come un utente voglio essere autenticato automaticamente dopo la registrazione per accedere rapidamente all'applicazione.->12 ore<br>
+Come un utente voglio essere autenticato automaticamente dopo la registrazione per accedere rapidamente all'applicazione.->5 ore<br>
 In caso di dati non validi, come un utente voglio che l'applicazione mostri un messaggio di errore per correggere eventuali errori.->5 ore<br>
 
 Sicurezza:<br>
@@ -172,7 +172,7 @@ Come un utente voglio essere autenticato nell'applicazione in modo da poter util
 Come un utente voglio aprire la mappa dell'applicazione per individuare una bicicletta disponibile nelle vicinanze.->5 ore<br>
 Come un utente voglio scannerizzare il codice QR sulla bicicletta per iniziare il noleggio.->5 ore<br>
 Come un utente voglio che l'applicazione registri il tempo del noleggio in modo da calcolare il costo corretto.->5 ore<br>
-Come un utente voglio pedalare verso la destinazione desiderata durante il noleggio.->8 ore<br>
+Come un utente voglio pedalare verso la destinazione desiderata durante il noleggio.->3 ore<br>
 Come un utente voglio raggiungere la destinazione e terminare il noleggio attraverso l'applicazione.->5 ore<br>
 Come un utente voglio che l'applicazione calcoli automaticamente il costo del noleggio e richieda il pagamento.->8 ore<br>
 In caso di bicicletta non disponibile, come un utente voglio ricevere un avviso dall'applicazione.->3 ore<br>
@@ -209,7 +209,7 @@ Manutenzione:<br>
 Come uno sviluppatore voglio che ogni bicicletta sia dotata di un chip che monitori il suo stato.->3 ore<br>
 Come uno sviluppatore voglio che il chip rilevi eventuali problemi o danni alla bicicletta.->8 ore<br>
 In caso di stato compromesso del mezzo, come uno sviluppatore voglio essere notificato come operatore.->12 ore<br>
-Come uno sviluppatore voglio recuperare la bicicletta per la manutenzione e ripararla.->12 ore<br>
+Come uno sviluppatore voglio recuperare la bicicletta per la manutenzione e ripararla.->8 ore<br>
 Dopo la manutenzione, come uno sviluppatore voglio che la bicicletta sia nuovamente disponibile per i clienti.->12 ore<br>
 Se la bicicletta è troppo danneggiata per essere riparata, come uno sviluppatore voglio che venga sostituita con una nuova bicicletta.->5 ore<br>
 
