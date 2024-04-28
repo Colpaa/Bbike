@@ -2,7 +2,7 @@
 # Bbike
 
 <details>
-<summary> Introduzione </summary>
+<summary>Introduzione </summary>
 Scarica, scannerizza e pedala! Bbike, la nuova applicazione che permette di girare in bici tutta Bergamo.
 La mia applicazione si basa sul modello dell'applicazione BiGi. Il problema che risolvo è quello del trasporto veloce nella città di Bergamo. Quante volte infatti ci siamo trovati in una situazione nella quale, per esempio, dovevamo raggiungere la fermata del pullman che era a 20 minuti a piedi. Ed è proprio in quella situazione che desideriamo un metodo più veloce per raggiungere la nostra destinazione. Ed è proprio in quella situazione che la nostra applicazione viene in aiuto! Con la numerosa quantità di biciclette che intendiamo mettere a disposizione, potrai trovarne una nelle vicinanze ovunque ti trovi! E in quel momento ti basta scannerizzare il codice QR posizionato sul manubrio della bicicletta e pedalare comodamente fino alla destinazione.
 
@@ -119,7 +119,7 @@ Il diagramma UML del SISTEMA invece è questo
 <img src="http://yuml.me/diagram/scruffy/usecase/[Sistema]-(Attivazione mezzo),(Attivazione mezzo)>(Sblocco mezzo),[Sistema]-(Parcheggio mezzo),(Parcheggio mezzo)>(Verifica Posto parcheggio),[Sistema]-(Controllo stato mezzo)" >
 
 
---- DIAGRAMMA WBS
+### --- DIAGRAMMA WBS
 
 1. Bbike 100<br>
    1.1 Analisi dei Requisiti  10 <br>
@@ -146,11 +146,11 @@ Il diagramma UML del SISTEMA invece è questo
       1.5.1 Distribuzione dell'Applicazione 8<br>
       1.5.2 Configurazione dei Server 7<br>
 
---- SUDDIVISIONE DELLE USER STORIES
+### --- SUDDIVISIONE DELLE USER STORIES
 
-Sprint 1 (3 settimane - 40 ore di lavoro a settimana):
+### Sprint 1 (3 settimane - 40 ore di lavoro a settimana):
 
-Registrazione:<br>
+**Registrazione:** <br>
 
 Come un utente voglio aprire l'applicazione in modo da poter accedere ai servizi offerti.->3 ore<br>
 Come un utente voglio selezionare l'opzione di registrazione in modo da creare un nuovo account.->3 ore<br>
@@ -159,14 +159,14 @@ Come un utente voglio che l'applicazione verifichi i dati inseriti in modo da ga
 Come un utente voglio essere autenticato automaticamente dopo la registrazione per accedere rapidamente all'applicazione.->5 ore<br>
 In caso di dati non validi, come un utente voglio che l'applicazione mostri un messaggio di errore per correggere eventuali errori.->5 ore<br>
 
-Sicurezza:<br>
+**Sicurezza:** <br>
 
 Come un responsabile della sicurezza voglio che l'applicazione implementi un software di sicurezza per prevenire il furto delle biciclette.->3 ore<br>
 Come un responsabile della sicurezza voglio che il software monitori il movimento delle biciclette e rilevi attività sospette.->8 ore<br>
 In caso di furto o movimento non autorizzato, come un responsabile della sicurezza voglio che il sistema invii notifiche ai gestori dell'applicazione e agli utenti.->3 ore<br>
 In caso di furto, come un responsabile della sicurezza voglio che il sistema attivi un sistema di tracciamento per recuperare la bicicletta.->5 ore<br>
 
-Noleggio:<br>
+**Noleggio:** <br>
 
 Come un utente voglio essere autenticato nell'applicazione in modo da poter utilizzare i servizi di noleggio.->3 ore<br>
 Come un utente voglio aprire la mappa dell'applicazione per individuare una bicicletta disponibile nelle vicinanze.->5 ore<br>
@@ -178,7 +178,7 @@ Come un utente voglio che l'applicazione calcoli automaticamente il costo del no
 In caso di bicicletta non disponibile, come un utente voglio ricevere un avviso dall'applicazione.->3 ore<br>
 Come un utente voglio essere avvertito se supero il tempo massimo di noleggio e se vengono applicate tariffe aggiuntive.->3 ore<br>
 
-Prenotazione:<br>
+**Prenotazione:** <br>
 
 Come un utente voglio essere autenticato nell'applicazione per prenotare una bicicletta.->3 ore<br>
 Come un utente voglio trovare una bicicletta che desidero prenotare sulla mappa.->12 ore<br>
@@ -187,16 +187,16 @@ Come un utente voglio che l'applicazione prenoti la bicicletta per me per la dur
 Come un utente voglio poter ritirare la bicicletta durante la durata della prenotazione.->5 ore<br>
 Se un'altra persona prenota la stessa bicicletta prima che io la ritiri, come un utente voglio essere notificato e la prenotazione cancellata.->8 ore<br>
 
-Sprint 2 (3 settimane - 40 ore di lavoro a settimana):<br>
+### Sprint 2 (3 settimane - 40 ore di lavoro a settimana):<br>
 
-Pagamento:<br>
+**Pagamento:** <br>
 
 Come un utente voglio completare il noleggio di una bicicletta in modo che l'applicazione possa calcolare il costo in base al tempo trascorso.->5 ore<br>
 Come un utente voglio che l'applicazione richieda il pagamento e mi permetta di inserire i dettagli di pagamento.->3 ore<br>
 Come un utente voglio che l'applicazione elabori il pagamento e mi invii una ricevuta.->8 ore<br>
 In caso di pagamento non riuscito, come un utente voglio essere avvisato e poter utilizzare un altro metodo di pagamento.->3 ore<br>
 
-Scelta Abbonamento:<br>
+**Scelta Abbonamento:** <br>
 
 Come un utente voglio essere autenticato nell'applicazione per accedere alla sezione "Scelta Abbonamento".->3 ore<br>
 Come un utente voglio poter selezionare uno tra vari abbonamenti disponibili, come abbonamenti di 3 mesi, 6 mesi o 1 anno.->8 ore<br>
@@ -204,7 +204,7 @@ Come un utente voglio che l'applicazione calcoli il costo dell'abbonamento.->12 
 Come un utente voglio confermare l'acquisto e effettuare il pagamento.->8 ore<br>
 In caso di pagamento dell'abbonamento non riuscito, come un utente voglio essere avvisato e poter utilizzare un altro metodo di pagamento.->3 ore<br>
 
-Manutenzione:<br>
+**Manutenzione:** <br>
 
 Come uno sviluppatore voglio che ogni bicicletta sia dotata di un chip che monitori il suo stato.->3 ore<br>
 Come uno sviluppatore voglio che il chip rilevi eventuali problemi o danni alla bicicletta.->8 ore<br>
@@ -213,17 +213,94 @@ Come uno sviluppatore voglio recuperare la bicicletta per la manutenzione e ripa
 Dopo la manutenzione, come uno sviluppatore voglio che la bicicletta sia nuovamente disponibile per i clienti.->12 ore<br>
 Se la bicicletta è troppo danneggiata per essere riparata, come uno sviluppatore voglio che venga sostituita con una nuova bicicletta.->5 ore<br>
 
-Naviga:<br>
+**Naviga:** <br>
 
 Come un utente voglio poter accedere alla funzione "Naviga" dalla home dell'applicazione.->3 ore<br>
 Come un utente voglio selezionare una destinazione sulla mappa e che l'applicazione calcoli il percorso più veloce per raggiungerla in bicicletta.->8 ore<br>
 Come un utente voglio seguire le indicazioni sulla mappa per guidarmi alla destinazione.->5 ore<br>
 In caso di problemi lungo il percorso, come strade chiuse o lavori in corso, come un utente voglio che l'applicazione calcoli un percorso alternativo.->5 ore<br>
 
-MultiNoleggio:<br>
+**MultiNoleggio:** <br>
 
 Come uno sviluppatore voglio che l'applicazione registri il noleggio della prima bicicletta.->3 ore<br>
 Come uno sviluppatore voglio poter ripetere il processo per noleggiare una seconda bicicletta, e così via, fino a un massimo di 5 biciclette contemporaneamente.->5 ore<br>
 Come uno sviluppatore voglio che l'applicazione calcoli sconti crescenti in base al numero di biciclette noleggiate contemporaneamente.->3 ore<br>
 Come uno sviluppatore voglio terminare i noleggi delle biciclette quando ho finito di usarle.->3 ore<br>
 Se tento di noleggiare più di 5 biciclette contemporaneamente, come uno sviluppatore voglio che l'applicazione mostri un messaggio di errore.->3 ore<br>
+<br>
+<br>
+### ------------Startup pivot : IL MERCATO NON HA REAGITO COME TI ASPETTAVI
+<br>
+<br>
+
+### Sprint 1 (Registrazione, Sicurezza, Noleggio, Prenotazione)
+
+**Registrazione:**
+- Apertura dell'applicazione (3 ore)
+- Selezione dell'opzione di registrazione (3 ore)
+- Inserimento dei dati richiesti (5 ore)
+- Verifica dei dati inseriti (3 ore)
+- Autenticazione automatica dopo la registrazione (5 ore)
+- Gestione degli errori nei dati inseriti (5 ore)
+
+**Sicurezza:**
+- Implementazione del software di sicurezza (3 ore)
+- Monitoraggio del movimento delle biciclette (8 ore)
+- Notifiche in caso di attività sospette o furto (3 ore)
+- Attivazione del sistema di tracciamento in caso di furto (5 ore)
+
+**Noleggio:**
+- Autenticazione nell'applicazione per utilizzare i servizi di noleggio (3 ore)
+- Visualizzazione delle biciclette disponibili sulla mappa (5 ore)
+- Scansione del codice QR per iniziare il noleggio (5 ore)
+- Registrazione del tempo di noleggio e calcolo del costo (5 ore)
+- Utilizzo della bicicletta durante il noleggio (3 ore)
+- Termine del noleggio e calcolo automatico del costo (5 ore)
+- Gestione degli avvisi in caso di bicicletta non disponibile o superamento del tempo massimo (6 ore)
+
+**Prenotazione:**
+- Autenticazione nell'applicazione per prenotare una bicicletta (3 ore)
+- Ricerca e selezione della bicicletta da prenotare sulla mappa (12 ore)
+- Specifica della durata della prenotazione e completamento della prenotazione (12 ore)
+- Prenotazione della bicicletta e ritiro durante il periodo prenotato (5 ore)
+- Gestione delle prenotazioni sovrapposte (8 ore)
+
+### Sprint 2 (Pagamento, Scelta Abbonamento, Manutenzione, Navigazione, MultiNoleggio)
+
+**Pagamento:**
+- Completo del noleggio e richiesta del pagamento (5 ore)
+- Inserimento dei dettagli di pagamento e elaborazione del pagamento (3 ore)
+- Invio della ricevuta e gestione dei pagamenti non riusciti (8 ore)
+
+**Scelta Abbonamento:**
+- Autenticazione nell'applicazione per accedere alla sezione "Scelta Abbonamento" (3 ore)
+- Selezione dell'abbonamento desiderato e calcolo del costo (8 ore)
+- Conferma dell'acquisto e pagamento dell'abbonamento (8 ore)
+- Gestione dei pagamenti non riusciti (3 ore)
+
+**Manutenzione:**
+- Implementazione di un chip per il monitoraggio dello stato delle biciclette (3 ore)
+- Rilevamento di problemi o danni alla bicicletta tramite il chip (8 ore)
+- Notifiche e interventi in caso di problemi rilevati (12 ore)
+- Riparazione o sostituzione della bicicletta dopo la manutenzione (20 ore)
+
+**Navigazione:**
+- Accesso alla funzione "Naviga" dall'applicazione (3 ore)
+- Selezione della destinazione e calcolo del percorso più veloce (8 ore)
+- Guida alla destinazione utilizzando le indicazioni sulla mappa (5 ore)
+- Gestione dei problemi lungo il percorso e calcolo di percorsi alternativi (5 ore)
+
+**MultiNoleggio:**
+- Registrazione del noleggio di più biciclette contemporaneamente (3 ore)
+- Implementazione di sconti crescenti in base al numero di biciclette noleggiate (3 ore)
+- Terminazione dei noleggi e gestione dei messaggi di errore in caso di limite superato (6 ore)
+
+### Riprogettazione dell'Architettura con il Concetto di Multitenancy
+
+**Architettura Multitenancy:**
+- Analisi dei requisiti e dei vincoli dell'architettura multitenancy (10 ore)
+- Progettazione dell'architettura multitenancy (15 ore)
+- Implementazione dell'architettura multitenancy nell'applicazione esistente (25 ore)
+- Test e verifica dell'architettura multitenancy (10 ore)
+
+
