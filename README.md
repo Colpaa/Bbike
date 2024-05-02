@@ -233,68 +233,6 @@ Se tento di noleggiare più di 5 biciclette contemporaneamente, come uno svilupp
 <br>
 <br>
 
-### Sprint 1 (Registrazione, Sicurezza, Noleggio, Prenotazione)
-
-**Registrazione:**
-- Apertura dell'applicazione (3 ore)
-- Selezione dell'opzione di registrazione (3 ore)
-- Inserimento dei dati richiesti (5 ore)
-- Verifica dei dati inseriti (3 ore)
-- Autenticazione automatica dopo la registrazione (5 ore)
-- Gestione degli errori nei dati inseriti (5 ore)
-
-**Sicurezza:**
-- Implementazione del software di sicurezza (3 ore)
-- Monitoraggio del movimento delle biciclette (8 ore)
-- Notifiche in caso di attività sospette o furto (3 ore)
-- Attivazione del sistema di tracciamento in caso di furto (5 ore)
-
-**Noleggio:**
-- Autenticazione nell'applicazione per utilizzare i servizi di noleggio (3 ore)
-- Visualizzazione delle biciclette disponibili sulla mappa (5 ore)
-- Scansione del codice QR per iniziare il noleggio (5 ore)
-- Registrazione del tempo di noleggio e calcolo del costo (5 ore)
-- Utilizzo della bicicletta durante il noleggio (3 ore)
-- Termine del noleggio e calcolo automatico del costo (5 ore)
-- Gestione degli avvisi in caso di bicicletta non disponibile o superamento del tempo massimo (6 ore)
-
-**Prenotazione:**
-- Autenticazione nell'applicazione per prenotare una bicicletta (3 ore)
-- Ricerca e selezione della bicicletta da prenotare sulla mappa (12 ore)
-- Specifica della durata della prenotazione e completamento della prenotazione (12 ore)
-- Prenotazione della bicicletta e ritiro durante il periodo prenotato (5 ore)
-- Gestione delle prenotazioni sovrapposte (8 ore)
-
-### Sprint 2 (Pagamento, Scelta Abbonamento, Manutenzione, Navigazione, MultiNoleggio)
-
-**Pagamento:**
-- Completo del noleggio e richiesta del pagamento (5 ore)
-- Inserimento dei dettagli di pagamento e elaborazione del pagamento (3 ore)
-- Invio della ricevuta e gestione dei pagamenti non riusciti (8 ore)
-
-**Scelta Abbonamento:**
-- Autenticazione nell'applicazione per accedere alla sezione "Scelta Abbonamento" (3 ore)
-- Selezione dell'abbonamento desiderato e calcolo del costo (8 ore)
-- Conferma dell'acquisto e pagamento dell'abbonamento (8 ore)
-- Gestione dei pagamenti non riusciti (3 ore)
-
-**Manutenzione:**
-- Implementazione di un chip per il monitoraggio dello stato delle biciclette (3 ore)
-- Rilevamento di problemi o danni alla bicicletta tramite il chip (8 ore)
-- Notifiche e interventi in caso di problemi rilevati (12 ore)
-- Riparazione o sostituzione della bicicletta dopo la manutenzione (20 ore)
-
-**Navigazione:**
-- Accesso alla funzione "Naviga" dall'applicazione (3 ore)
-- Selezione della destinazione e calcolo del percorso più veloce (8 ore)
-- Guida alla destinazione utilizzando le indicazioni sulla mappa (5 ore)
-- Gestione dei problemi lungo il percorso e calcolo di percorsi alternativi (5 ore)
-
-**MultiNoleggio:**
-- Registrazione del noleggio di più biciclette contemporaneamente (3 ore)
-- Implementazione di sconti crescenti in base al numero di biciclette noleggiate (3 ore)
-- Terminazione dei noleggi e gestione dei messaggi di errore in caso di limite superato (6 ore)
-
 ### Riprogettazione dell'Architettura con il Concetto di Multitenancy
 
 **Architettura Multitenancy:**
@@ -302,5 +240,29 @@ Se tento di noleggiare più di 5 biciclette contemporaneamente, come uno svilupp
 - Progettazione dell'architettura multitenancy (15 ore)
 - Implementazione dell'architettura multitenancy nell'applicazione esistente (25 ore)
 - Test e verifica dell'architettura multitenancy (10 ore)
+<br>
+<br>
+
+**Pivot**: Trasformazione in una Piattaforma di Servizi per i Comuni
+
+Un interessante pivot potrebbe essere trasformare l'applicazione in una piattaforma di servizi per i comuni, offrendo loro soluzioni personalizzate per migliorare la mobilità urbana e promuovere la sostenibilità. Ecco come potrebbe funzionare:
+
+**Soluzioni su Misura per i Comuni**
+L'applicazione potrebbe essere adattata per soddisfare le esigenze specifiche di ogni singolo comune. Ad esempio, potrebbe essere personalizzata per integrarsi con le infrastrutture di trasporto esistenti e supportare le politiche di mobilità sostenibile locali.
+
+**Strumenti di Gestione della Mobilità**
+La piattaforma potrebbe offrire strumenti avanzati per la gestione della mobilità urbana, come la pianificazione delle rotte, la gestione della flotta di mezzi e la raccolta di dati sulle abitudini di viaggio dei cittadini. Questi strumenti potrebbero aiutare i comuni a ottimizzare l'utilizzo delle risorse e a migliorare l'efficienza del trasporto pubblico.
+
+**Promozione della Sostenibilità**
+L'applicazione potrebbe includere funzionalità per promuovere la sostenibilità e l'uso di mezzi di trasporto a basse emissioni. Ad esempio, potrebbe incoraggiare gli utenti a scegliere mezzi di trasporto condivisi o a emissioni zero attraverso incentivi e premi.
+
+**Monitoraggio e Reporting**
+La piattaforma potrebbe fornire strumenti di monitoraggio e reporting per consentire ai comuni di valutare l'impatto delle loro iniziative di mobilità e prendere decisioni informate basate sui dati.
+
+**Collaborazione tra Comuni**
+L'applicazione potrebbe facilitare la collaborazione tra diversi comuni, consentendo loro di condividere dati e best practice e di lavorare insieme per affrontare sfide comuni legate alla mobilità urbana.
+
+In questo modo, l'applicazione potrebbe trasformarsi da un semplice servizio di noleggio di biciclette a una piattaforma completa per la gestione della mobilità urbana, offrendo valore aggiunto ai comuni e contribuendo a creare città più sostenibili e vivibili.
+
 
 
