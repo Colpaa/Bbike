@@ -229,41 +229,6 @@ Come uno sviluppatore voglio terminare i noleggi delle biciclette quando ho fini
 Se tento di noleggiare più di 5 biciclette contemporaneamente, come uno sviluppatore voglio che l'applicazione mostri un messaggio di errore.->3 ore<br>
 <br>
 <br>
-### ------------Startup pivot : IL MERCATO NON HA REAGITO COME TI ASPETTAVI
-<br>
-<br>
-
-### Riprogettazione dell'Architettura con il Concetto di Multitenancy
-
-**Architettura Multitenancy:**
-- Analisi dei requisiti e dei vincoli dell'architettura multitenancy (10 ore)
-- Progettazione dell'architettura multitenancy (15 ore)
-- Implementazione dell'architettura multitenancy nell'applicazione esistente (25 ore)
-- Test e verifica dell'architettura multitenancy (10 ore)
-<br>
-<br>
-
-**Pivot**: Trasformazione in una Piattaforma di Servizi per i Comuni
-
-Un interessante pivot potrebbe essere trasformare l'applicazione in una piattaforma di servizi per i comuni, offrendo loro soluzioni personalizzate per migliorare la mobilità urbana e promuovere la sostenibilità. Ecco come potrebbe funzionare:
-
-**Soluzioni su Misura per i Comuni**
-L'applicazione potrebbe essere adattata per soddisfare le esigenze specifiche di ogni singolo comune. Ad esempio, potrebbe essere personalizzata per integrarsi con le infrastrutture di trasporto esistenti e supportare le politiche di mobilità sostenibile locali.
-
-**Strumenti di Gestione della Mobilità**
-La piattaforma potrebbe offrire strumenti avanzati per la gestione della mobilità urbana, come la pianificazione delle rotte, la gestione della flotta di mezzi e la raccolta di dati sulle abitudini di viaggio dei cittadini. Questi strumenti potrebbero aiutare i comuni a ottimizzare l'utilizzo delle risorse e a migliorare l'efficienza del trasporto pubblico.
-
-**Promozione della Sostenibilità**
-L'applicazione potrebbe includere funzionalità per promuovere la sostenibilità e l'uso di mezzi di trasporto a basse emissioni. Ad esempio, potrebbe incoraggiare gli utenti a scegliere mezzi di trasporto condivisi o a emissioni zero attraverso incentivi e premi.
-
-**Monitoraggio e Reporting**
-La piattaforma potrebbe fornire strumenti di monitoraggio e reporting per consentire ai comuni di valutare l'impatto delle loro iniziative di mobilità e prendere decisioni informate basate sui dati.
-
-**Collaborazione tra Comuni**
-L'applicazione potrebbe facilitare la collaborazione tra diversi comuni, consentendo loro di condividere dati e best practice e di lavorare insieme per affrontare sfide comuni legate alla mobilità urbana.
-
-In questo modo, l'applicazione potrebbe trasformarsi da un semplice servizio di noleggio di biciclette a una piattaforma completa per la gestione della mobilità urbana, offrendo valore aggiunto ai comuni e contribuendo a creare città più sostenibili e vivibili.
-
 
 
 
